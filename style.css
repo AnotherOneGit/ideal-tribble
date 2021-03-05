@@ -104,7 +104,7 @@ body {
 
 .table {
     padding-top: 70px;
-    padding-bottom: 77px;
+    padding-bottom: 63px;
 }
 
 .table__item {
@@ -131,6 +131,7 @@ body {
     line-height: 16px;
     text-align: center;
     color: #2F3132;
+    margin-bottom: 20px;
 }
 
 .table__item-heading {
@@ -143,8 +144,46 @@ body {
 }
 
 .carousel {
-    margin-bottom: 88px;
+    margin-bottom: 28px;
 }
+
+.carousel-indicators {
+    /* margin: 0 0 0 0 !important; */
+    /* margin-top: 50px !important; */
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.first_slider_button {
+    width: 40px !important; 
+    height: 40px !important;
+    border-radius: 50% !important;
+    border: none !important;
+}
+
+#wood_button {
+    background: url(img/wood-texture.png);
+}
+
+#glass_button {
+    background: url(img/glass-texture.png);
+}
+
+#linoleum_button {
+    background: url(img/linoleum-texture.png);
+}
+
+#cloth_button {
+    background: url(img/cloth-texture.png);
+}
+
+#marble_button {
+    background: url(img/marble-texture.png);
+}
+
+/* .carousel-indicators {
+    background-color: #2F3132;
+} */
 
 .flow {
     padding-top: 70px;
@@ -177,4 +216,24 @@ body {
 
 .settings__icons {
     margin-bottom: 20px;
+}
+
+.mouse__text {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.mouse__img {
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.mouse__img_1 {
+    background-image: url(img/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2.png);
+}
+
+.mouse__img_2 {
+    background: url(img/image\ 2.png);
 }
