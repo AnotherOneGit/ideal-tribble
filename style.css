@@ -155,7 +155,7 @@ body {
 }
 
 .first_slider_button {
-    width: 40px !important; 
+    width: 40px !important;
     height: 40px !important;
     border-radius: 50% !important;
     border: none !important;
@@ -236,4 +236,16 @@ body {
 
 .mouse__img_2 {
     background: url(img/image\ 2.png);
+}
+
+.footer {
+    background: #2F3132;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    color: #C7C8C8;
+    padding-top: 22px;
 }
