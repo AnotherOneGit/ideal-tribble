@@ -119,6 +119,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 
 .table__content {
@@ -315,5 +317,24 @@ body {
         height: 597px;
         margin-left: 39px;
         margin-right: 19px;
+    }
+
+    .table__content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 30px;
+    }
+
+    .table__item-heading {
+        margin-bottom: 5px;
+    }
+
+    .table__item {
+        min-height: 170px;
+    }
+
+    .table__heading {
+        font-size: 24px;
+        line-height: 28;
     }
 }
